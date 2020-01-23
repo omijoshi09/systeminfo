@@ -7,8 +7,8 @@ setup(name="systeminfo",
       author="Omkar Joshi",
       author_email="omkar.joshi@ucd.ie",
       licence="GPL3",
-      packages=['systeminfo']
-      # entry_points={
-      #   'console_scripts':['comp30670_systeminfo=systeminfo.main:main']
-      #   }
+      packages=['systeminfo'],
+      entry_points={
+        'console_scripts':['comp30670_systeminfo=systeminfo.main:main']
+        }
       )
